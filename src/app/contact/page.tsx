@@ -98,7 +98,7 @@ export default function LandingPage() {
             {
               label: "Instagram",              href: "https://instagram.com/m___m0rgan"},
             {
-              label: "Discord",              href: "https://discord.gg/trhxfVnyX4"},
+              label: "Discord",              href: "https://discord.com/users/m_m0rgan"},
             {
               label: "Telegram",              href: "https://t.me/m_m0rgan"},
           ],
