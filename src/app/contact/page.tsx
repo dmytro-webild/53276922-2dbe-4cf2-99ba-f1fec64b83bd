@@ -26,35 +26,21 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "About",
-          id: "/about",
-        },
+          name: "About",          id: "/about"},
         {
-          name: "Services",
-          id: "/services",
-        },
+          name: "Services",          id: "/services"},
         {
-          name: "Portfolio",
-          id: "/portfolio",
-        },
+          name: "Portfolio",          id: "/portfolio"},
         {
-          name: "Blog",
-          id: "/blog",
-        },
+          name: "Blog",          id: "/blog"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
       brandName="m_m0rgan"
       button={{
-        text: "Contact Me",
-        href: "/contact",
-      }}
+        text: "Contact Me",        href: "/contact"}}
     />
   </div>
 
@@ -62,15 +48,14 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={true}
       background={{
-        variant: "glowing-orb",
+        variant: "sparkles-gradient"
       }}
       tag="Contact Form"
       title="Get in Touch"
       description="I'm always open to new opportunities, collaborations, and discussions. Fill out the form below, and I'll get back to you as soon as possible."
       buttons={[
         {
-          text: "Send Message",
-        },
+          text: "Send Message"},
       ]}
     />
   </div>
@@ -80,14 +65,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Instagram",
-        "Discord",
-        "Telegram",
-        "LinkedIn",
-        "GitHub",
-        "X (Twitter)",
-        "Stack Overflow",
-      ]}
+        "Instagram",        "Discord",        "Telegram",        "LinkedIn",        "GitHub",        "X (Twitter)",        "Stack Overflow"]}
       title="Connect with Me"
       description="Find me on various platforms and join my community to stay updated on my latest work and insights."
       tag="Social"
@@ -100,62 +78,37 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Quick Links",
-          items: [
+          title: "Quick Links",          items: [
             {
-              label: "Home",
-              href: "/",
-            },
+              label: "Home",              href: "/"},
             {
-              label: "About",
-              href: "/about",
-            },
+              label: "About",              href: "/about"},
             {
-              label: "Services",
-              href: "/services",
-            },
+              label: "Services",              href: "/services"},
             {
-              label: "Portfolio",
-              href: "/portfolio",
-            },
+              label: "Portfolio",              href: "/portfolio"},
             {
-              label: "Blog",
-              href: "/blog",
-            },
+              label: "Blog",              href: "/blog"},
           ],
         },
         {
-          title: "Connect",
-          items: [
+          title: "Connect",          items: [
             {
-              label: "Email",
-              href: "mailto:omarsw@proton.me",
-            },
+              label: "Email",              href: "mailto:omarsw@proton.me"},
             {
-              label: "Instagram",
-              href: "https://instagram.com/m___m0rgan",
-            },
+              label: "Instagram",              href: "https://instagram.com/m___m0rgan"},
             {
-              label: "Discord",
-              href: "https://discord.gg/trhxfVnyX4",
-            },
+              label: "Discord",              href: "https://discord.gg/trhxfVnyX4"},
             {
-              label: "Telegram",
-              href: "https://t.me/m_m0rgan",
-            },
+              label: "Telegram",              href: "https://t.me/m_m0rgan"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Terms of Service",
-              href: "#",
-            },
+              label: "Terms of Service",              href: "#"},
           ],
         },
       ]}
